@@ -1,0 +1,68 @@
+@media screen and (max-width: 480px)
+{
+    .buttonSliderStylePrev
+{
+    height: 110px;
+    width: 10%;
+    opacity: 0.6;
+}
+
+.buttonSliderStyleNext
+{
+    height: 110px;
+    width: 10%;
+    opacity: 0.6;
+}
+
+.pageHeaderButtonsParent
+{
+    display: none;
+    z-index: 2;
+    background-color: rgba(22, 253, 164, 0.979);
+    animation-name: aa;
+    animation-duration: 5s;
+    animation-play-state: running;
+}
+
+@keyframes aa
+{
+    from
+    {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes aaa
+{
+    from
+    {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+.pageHeaderButton
+{
+    width: 70%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.pageHeaderResponsive
+{
+    font-size: xx-large;
+    display: block;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    height: 100%;
+    border-radius: 0px;
+    padding: 0px 32px 0px 32px;
+    transition-duration: 0.5s;
+}
+}

@@ -1,92 +1,68 @@
-<html lang="fa">
+<html lang="en">
   <head>
-    <title>املاک بام سبز</title>
-    <link rel="shortcut icon" href="Assets/Logo.jpeg" />
-    <meta charset="utf-8" dir="rtl" />
-    <meta name="google-site-verification" content="CxCTMd6wKiespWN-C5NGfzjmmEMrZKTvjkj64CNZTD8" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!--Link and Source for CSS and Js files-->
-    <link rel="stylesheet" href="StyleSheetHomePage.css" />
-    <link rel="stylesheet" href="responsiveCodes.css" />
-    <script src="myScript.js"></script>
+    <title>Document</title>
 
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <script src="sliderScript.js"></script>
+    <script src="indexScript.js"></script>
+    <script src="splide-2.4.21/dist/js/splide.min.js"></script>
+
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link rel="stylesheet" href="splide-2.4.21/dist/css/splide.min.css">
+    <link rel="stylesheet" href="stylesheet.css" />
+    <link rel="stylesheet" href="sliderStyleSheet.css" />
+    <link rel="stylesheet" href="responsive.css"/>
     <link
-      href="https://fonts.googleapis.com/css2?family=Changa&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Changa:wght@300&display=swap"
       rel="stylesheet"
     />
   </head>
 
   <body>
-    <div class="headerDiv1">
-      <div class="headerDiv2">
-        <!-- Button to nightTermRent.html -->
-        <a href="nightTermRent.html">
-          <button class="button1" id="button">
-            <p id="topMenuTextFormat" class="sss">اجاره شبانه</p>
-          </button>
-        </a>
-        <!-- Button to index page -->
-        <a href="index.html">
-          <button class="button2" id="button">
-            <p id="topMenuTextFormat">صفحه اصلی</p>
-          </button>
-        </a>
-        <!-- Button to contactUs.html -->
-        <a href="contactUs.html">
-          <button class="button3" id="button">
-            <p id="topMenuTextFormat">ارتباط باما</p>
-          </button>
-        </a>
+
+    <div
+      class="pageHeader w3-round-large w3-card-4 w3-margin-top w3-margin-bottom"
+    >
+    <button id="pageHeaderClickId" class="pageHeaderResponsive" onclick="pageHeaderClick('pageHeaderButtonsParentId')">☰</button>
+      <div id="pageHeaderButtonsParentId" class="pageHeaderButtonsParent w3-center w3-container w3-display-container w3-bar w3-round-large w3-animate-top">
+        
+        <button class="pageHeaderButton  w3-hover-aqua">Home</button>
+        <button class="pageHeaderButton  w3-hover-aqua">Page 2</button>
+        <button class="pageHeaderButton  w3-hover-aqua">Page 3</button>
       </div>
     </div>
 
-    <!-- House 1 -->
-    <div id="post">
-      <div id="dataDiv">
-        <div id="imageDiv">
-          <img
-            class="imageI"
-            src="Assets/House3.jpg"
-            alt="عکس به دلیل وجود مشکلی در ارتباط دانلود نشد!!"
-          />
-        </div>
-
-        <div id="details">
-          <h1 id="detailsH1">ویلا فروشی  </h1>
-          <pre>
-300 متر زمین
-180 متر بنا
-3 خوابه</pre
-          >
-        </div>
-      </div>
+    <!-- Slider 1 -->
+    <div id="" class="card1 w3-round-large w3-card-4 w3-display-container">
+      <div style="width: 100%;" class="imgParent w3-display-container">
+      
+      <img class="imgSliderStyle slide1 card1Img" style=" transition-duration: 0.5s; display: block;" src="https://renew.org.au/wp-content/uploads/2018/12/SHD2018-feature.jpg" alt="">
+    
+      <img class="imgSliderStyle slide1 card1Img" style=" transition-duration: 0.5s; display: none;" src="https://th.bing.com/th?id=OIF.Ttd%2ftYwJcTDY4xcKNvgQpw&pid=ImgDet&rs=1" alt="">
+      
+      <button class="buttonSliderStylePrev w3-button w3-black w3-display-left  w3-hover-aqua" onclick="change('slide1', 'B')">&#10094;</button>
+      <button class="buttonSliderStyleNext w3-button w3-black w3-display-right w3-hover-aqua" onclick="change('slide1', 'F')">&#10095;</button>
+    </div>
+      <h2 for="" class="card1Label w3-xxlarge">تیتر</h2>
+      <p class="card1Descrption w3-xlarge">توضیح خلاصه</p>
     </div>
 
-    <!-- House 2 -->
-    <div id="post">
-      <div id="dataDiv">
-        <div id="imageDiv">
-          <img
-            class="imageI"
-            src="Assets/House1.jpg"
-            alt="عکس به دلیل وجود مشکلی در ارتباط دانلود نشد!!"
-          />
-        </div>
-
-        <div id="details">
-          <h1 id="detailsH1">ویلا فروشی دریاگوشه</h1>
-          <pre>
-500 متر زمین
-350 متر زمین
-4 خوابه
-1 خواب مستر
-حیاط پشتی 80 متر
-</pre
-          >
-        </div>
-      </div>
+    <!-- Slider 2 -->
+    <div id="" class="card1 w3-round-large w3-card-4 w3-display-container">
+      <div style="width: 100%;" class="imgParent w3-display-container">
+      
+      <img class="imgSliderStyle slide2 card1Img" style=" transition-duration: 0.5s; display: block;" src="https://renew.org.au/wp-content/uploads/2018/12/SHD2018-feature.jpg" alt="">
+      <img class="imgSliderStyle slide2 card1Img" style=" transition-duration: 0.5s; display: none;" src="https://th.bing.com/th?id=OIF.Ttd%2ftYwJcTDY4xcKNvgQpw&pid=ImgDet&rs=1" alt="">
+      
+      <button class="buttonSliderStylePrev w3-button w3-black w3-display-left  w3-hover-aqua" onclick="change('slide2', 'B')">&#10094;</button>
+      <button class="buttonSliderStyleNext w3-button w3-black w3-display-right w3-hover-aqua" onclick="change('slide2', 'F')">&#10095;</button>
     </div>
+      <h2 for="" class="card1Label w3-xxlarge">تیتر</h2>
+      <p class="card1Descrption w3-xlarge">توضیح خلاصه</p>
+    </div>
+
+   
   </body>
 </html>
