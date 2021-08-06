@@ -1,18 +1,13 @@
 @media screen and (max-width: 480px)
 {
-    .buttonSliderStylePrev
-{
-    height: 110px;
-    width: 10%;
-    opacity: 0.6;
-}
 
-.buttonSliderStyleNext
-{
-    height: 110px;
-    width: 10%;
-    opacity: 0.6;
-}
+    .pageHeader
+    {
+        width: 80%;
+        height: 48px;
+        margin: auto;
+        background-color: rgba(22, 253, 164, 0.979);
+    }
 
 .pageHeaderButtonsParent
 {
@@ -64,5 +59,26 @@
     border-radius: 0px;
     padding: 0px 32px 0px 32px;
     transition-duration: 0.5s;
+}
+
+.card1
+{
+    width: 80%;
+    margin: auto;
+    background-color: rgba(97, 255, 195, 0.87);
+}
+
+.buttonSliderStylePrev
+{
+    height: 100%;
+    border-radius: 7px 300px 300px 8px;
+    opacity: 0.5;
+}
+
+.buttonSliderStyleNext
+{
+    height: 100%;
+    border-radius: 300px 7px 8px 300px;
+    opacity: 0.5;
 }
 }
