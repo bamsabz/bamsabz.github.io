@@ -1,11 +1,12 @@
 body
 {
-    background-color: rgb(17, 17, 17);
-    font-family: 'Changa', sans-serif;
-    background-image: url(background1.svg);
-    background-repeat: no-repeat;
+    /* background-color: rgb(17, 17, 17); */
+    font-family: 'Cairo', sans-serif;
+    background-image: url(Assets/background1.svg);
+    background-color: rgb(214, 214, 214);
+    /* background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: fixed; */
 }
 
 
@@ -36,6 +37,8 @@ body
 .pageHeaderResponsive
 {
     display: none;
+    direction: rtl;
+    text-align: right;
 }
 
 .pageHeaderButton:hover
@@ -54,14 +57,16 @@ body
 .card1Label
 {
     text-align: right;
-    width: 80%;
-    margin: 10px 5% 10px 5%;
+    direction: rtl;
+    padding-top: 0px;
+    padding-right: 10px;
 }
 
 .card1Descrption
 {
     text-align: right;
-    width: 80%;
-    margin: 10px 5% 10px 5%;
+    direction: rtl;
+    padding-bottom: 8px;
+    padding-right: 10px;
 }
 
