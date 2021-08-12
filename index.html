@@ -46,8 +46,8 @@
       <h2 for="" class="card1Label w3-xxlarge">
         خانه برای فروش دریا گوشه خیابان 4
       </h2>
-      <p class="card1Descrption w3-xlarge">
-        دارای 2 خواب Master و 2 خواب مهمان
+      <p id="card1DescrptionId" class="card1Descrption w3-xlarge">
+        دارای 2 خواب Master و 2 خواب مهمان به همراه کلی توضیح برای تست کات شدن متن و همچنان نوشتن برای تست 
       </p>
     </div>
 
@@ -67,4 +67,23 @@
 
    
   </body>
+
+<script>
+
+  var stringForDes = "";
+
+  for(var i = 80; i < 105; i++)
+  {
+    if(document.getElementById('card1DescrptionId').innerHTML.substring(0, i)[i-1] == ' ')
+    {
+      stringForDes = document.getElementById('card1DescrptionId').innerHTML.substring(0, i);
+      console.log(document.getElementById('card1DescrptionId').innerHTML)
+      document.getElementById('card1DescrptionId').innerHTML = stringForDes + "...";
+      break;
+    }
+  }
+
+  
+</script>
+
 </html>

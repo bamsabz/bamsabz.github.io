@@ -38,7 +38,8 @@ body
 {
     display: none;
     direction: rtl;
-    text-align: right;
+    text-align: center;
+    font-weight: bold;
 }
 
 .pageHeaderButton:hover
