@@ -48,3 +48,30 @@ function change(className, func)
     }
 }
 
+function titleClicked(itemId)
+{
+    if(document.getElementById(itemId).style.position != "absolute")
+    {
+        document.getElementById(itemId).style.position = "absolute";
+        document.getElementById(itemId).style.width = "100%";
+        document.getElementById(itemId).style.height = "100%";
+        document.getElementById(itemId).style.top =  "50%";
+        document.getElementById(itemId).style.left = "50%";
+        document.getElementById(itemId).style.transform = "translate(-50%,-50%)";
+        document.getElementById(itemId).style.zIndex = "99";
+    }
+    else if(document.getElementById(itemId).style.position == "absolute")
+    {
+        document.getElementById(itemId).style.position = "";
+        document.getElementById(itemId).style.width = "80%";
+        document.getElementById(itemId).style.height = "";
+        document.getElementById(itemId).style.top =  "";
+        document.getElementById(itemId).style.left = "";
+        document.getElementById(itemId).style.transform = "";
+        document.getElementById(itemId).style.zIndex = "0";
+    }
+
+     
+
+     //position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);
+}
