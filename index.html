@@ -6,7 +6,7 @@
     <title>Bamesabz</title>
 
     <script src="slider/sliderScript.js"></script>
-    <script src="indexScriptAndCss/indexScript.js"></script>
+    
     <script src="splide-2.4.21/dist/js/splide.min.js"></script>
 
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
@@ -44,7 +44,7 @@
       <button class="buttonSliderStyleNext w3-button w3-black w3-display-right w3-hover-aqua" onclick="change('slide1', 'F')">&#10095;</button>
     </div>
       <h2 for="" id="header1" onclick="titleClicked(this.id)" class="card1Label w3-xxlarge">1تیتر</h2>
-      <p id="header1" onclick="titleClicked(this.id)" class="card1Descrption w3-xlarge">توضیح خلاصه</p>
+      <p id="card1DescrptionId1" class="card1Descrption w3-xlarge"></p>
     </div>
 
     <!-- Slider 2 -->
@@ -60,7 +60,7 @@
       <button class="buttonSliderStyleNext w3-button w3-black w3-display-right w3-hover-aqua" onclick="change('slide2', 'F')">&#10095;</button>
     </div>
       <h2 for="" id="header2" onclick="titleClicked(this.id)" class="card1Label w3-xxlarge">تیتر2</h2>
-      <p id="header2" onclick="titleClicked(this.id)" class="card1Descrption w3-xlarge">توضیح خلاصه</p>
+      <p id="card1DescrptionId2" class="card1Descrption w3-xlarge"></p>
     </div>
 
    
@@ -77,25 +77,23 @@
       <button class="buttonSliderStyleNext w3-button w3-black w3-display-right w3-hover-aqua" onclick="change('slide3', 'F')">&#10095;</button>
     </div>
       <h2 for="" id="header3" onclick="titleClicked(this.id)" class="card1Label w3-xxlarge">تیتر</h2>
-      <p id="header3" onclick="titleClicked(this.id)" class="card1Descrption w3-xlarge">توضیح خلاصه</p>
+      <p id="card1DescrptionId3" class="card1Descrption w3-xlarge"></p>
     </div>
   </body>
-
+  <script src="indexScriptAndCss/indexScript.js"></script>
 <script>
 
-  var stringForDes = "";
-
-  for(var i = 80; i < 105; i++)
-  {
-    if(document.getElementById('card1DescrptionId').innerHTML.substring(0, i)[i-1] == ' ')
-    {
-      stringForDes = document.getElementById('card1DescrptionId').innerHTML.substring(0, i);
-      console.log(document.getElementById('card1DescrptionId').innerHTML)
-      document.getElementById('card1DescrptionId').innerHTML = stringForDes + "...";
-      break;
-    }
-  }
-
+  
+  
+  
+    
+  // if(document.getElementById('card1DescrptionId' + (j + 1)).innerHTML.substring(0, i)[i-1] == ' ')
+  //     {
+  //       stringForDes = document.getElementById('card1DescrptionId' + (j + 1)).innerHTML.substring(0, i);
+  //       console.log(document.getElementById('card1DescrptionId' + (j + 1)).innerHTML)
+  //       document.getElementById('card1DescrptionId' + (j + 1)).innerHTML = stringForDes + "...";
+  //       break;
+  //     }
   
 </script>
 
