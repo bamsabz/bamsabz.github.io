@@ -47,6 +47,28 @@ body
     background-color:rgba(255, 255, 255, 0.979);
 }
 
+.homePageIntro
+{
+    width: 80%;
+    margin: auto;
+    background-color: rgba(7, 7, 7, 0.945);
+}
+
+.homePageIntroImage
+{
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.homePageIntroP
+{
+    margin: auto;
+    text-align: center;
+    color:rgba(22, 253, 164, 0.979);
+}
+
 .card1
 {
     width: 60%;
