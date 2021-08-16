@@ -3,9 +3,15 @@ var openCheck = false;
 var details = 
   [
     "This text is a test for cutting details of properties. This text is going to be previewed and when the item get a \"onclick\" event it's going to expand",
-    "This text is a test for cutting details of properties. This text is going to be previewed and when the item get a \"onclick\" event it's going to expand",
     "This text is a test for cutting details of properties. This text is going to be previewed and when the item get a \"onclick\" event it's going to expand"
   ]
+
+for(var i = 0; i < details.length; i++)
+{
+   details[i].document.getElementById("card1DescrptionId" + (i + 1)).innerHTML;
+}
+
+console.log(details[i])
 
 function pageHeaderClick(a)
 {
@@ -29,6 +35,10 @@ function pageHeaderClick(a)
     
 }
 
+function headerChildClick()
+{
+  window.location("index.html")
+}
 
 var detailsSave = details;
   function pageStartUp()

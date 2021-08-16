@@ -65,6 +65,7 @@ body
 
 .card1Descrption
 {
+    word-wrap: break-word;
     text-align: right;
     direction: rtl;
     padding-bottom: 8px;

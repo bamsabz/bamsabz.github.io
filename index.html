@@ -25,26 +25,39 @@
     <button id="pageHeaderClickId" class="pageHeaderResponsive w3-round-large" onclick="pageHeaderClick('pageHeaderButtonsParentId')">☰</button>
       <div id="pageHeaderButtonsParentId" class="pageHeaderButtonsParent w3-center w3-container w3-display-container w3-bar w3-round-large w3-animate-top">
         
-        <button class="pageHeaderButton  w3-hover-aqua">Home</button>
-        <button class="pageHeaderButton  w3-hover-aqua">Page 2</button>
-        <button class="pageHeaderButton  w3-hover-aqua">Page 3</button>
+        <a href="index.html"><button class="pageHeaderButton  w3-hover-aqua" onclick="headerChildClick()">خانه</button></a>
       </div>
     </div>
+
+    <div>
+      <img src="" alt="">
+      <p>َشماره تماس : 7808 393 0911</p>
+    </div>
+
 
     <!-- Slider 1 -->
     <div id="header1" class="card1 w3-round-large w3-card-4 w3-display-container">
       <div style="width: 100%;" class="imgParent w3-display-container">
       
-      <img id="header1" onclick="titleClicked(this.id)" class="imgSliderStyle slide1" style=" transition-duration: 0.5s; display: block;" src="https://renew.org.au/wp-content/uploads/2018/12/SHD2018-feature.jpg" alt="">
-      <img id="header1" onclick="titleClicked(this.id)" class="imgSliderStyle slide1" style=" transition-duration: 0.5s; display: none;"  src="Assets/House1.jpg" alt="">
-      <img id="header1" onclick="titleClicked(this.id)" class="imgSliderStyle slide1" style=" transition-duration: 0.5s; display: none;"  src="Assets/House2.jpg" alt="">
-      <img id="header1" onclick="titleClicked(this.id)" class="imgSliderStyle slide1" style=" transition-duration: 0.5s; display: none;"  src="Assets/House3.jpg" alt="">
+      <img id="header1" onclick="titleClicked(this.id)" class="imgSliderStyle slide1" style=" transition-duration: 0.5s; display: block;" src="Assets/House1/1.jpeg" alt="">
+      <img id="header1" onclick="titleClicked(this.id)" class="imgSliderStyle slide1" style=" transition-duration: 0.5s; display: none;"  src="Assets/House1/2.jpeg" alt="">
+      <img id="header1" onclick="titleClicked(this.id)" class="imgSliderStyle slide1" style=" transition-duration: 0.5s; display: none;"  src="Assets/House1/3.jpeg" alt="">
+      <img id="header1" onclick="titleClicked(this.id)" class="imgSliderStyle slide1" style=" transition-duration: 0.5s; display: none;"  src="Assets/House1/4.jpeg" alt="">
+      <img id="header1" onclick="titleClicked(this.id)" class="imgSliderStyle slide1" style=" transition-duration: 0.5s; display: none;"  src="Assets/House1/5.jpeg" alt="">
+      <img id="header1" onclick="titleClicked(this.id)" class="imgSliderStyle slide1" style=" transition-duration: 0.5s; display: none;"  src="Assets/House1/6.jpeg" alt="">
+      <img id="header1" onclick="titleClicked(this.id)" class="imgSliderStyle slide1" style=" transition-duration: 0.5s; display: none;"  src="Assets/House1/7.jpeg" alt="">
       
       <button class="buttonSliderStylePrev w3-button w3-black w3-display-left  w3-hover-aqua" onclick="change('slide1', 'B')">&#10094;</button>
       <button class="buttonSliderStyleNext w3-button w3-black w3-display-right w3-hover-aqua" onclick="change('slide1', 'F')">&#10095;</button>
     </div>
-      <h2 for="" id="header1" onclick="titleClicked(this.id)" class="card1Label w3-xxlarge">1تیتر</h2>
-      <p id="card1DescrptionId1" class="card1Descrption w3-xlarge"></p>
+      <h2 for="" id="header1" onclick="titleClicked(this.id)" class="card1Label w3-xxlarge">اجاره و رهن کامل (شمال / متل قو)</h2>
+      <p id="card1DescrptionId1" class="card1Descrption w3-xlarge">زمین ۳۲۰ متر بنا ۳۵۰ متر
+        <br>چهار خواب مستر دارای استخر و جکوزی
+       <br>نما رومی 
+       <br>کابینت ممبران 
+       <br>کاغذ دیواری المانی ضد آب 
+    <br>   کف سرامیک ۸۰در ۸۰ 
+       <br>شیر آلات هنگام آلمان</p>
     </div>
 
     <!-- Slider 2 -->
@@ -63,22 +76,6 @@
       <p id="card1DescrptionId2" class="card1Descrption w3-xlarge"></p>
     </div>
 
-   
-    <!-- Slider 3 -->
-    <div id="header3" class="card1 w3-round-large w3-card-4 w3-display-container">
-      <div style="width: 100%;" class="imgParent w3-display-container">
-      
-      <img id="header3" onclick="titleClicked(this.id)" class="imgSliderStyle slide3" style=" transition-duration: 0.5s; display: block;" src="https://renew.org.au/wp-content/uploads/2018/12/SHD2018-feature.jpg" alt="">
-      <img id="header3" onclick="titleClicked(this.id)" class="imgSliderStyle slide3" style=" transition-duration: 0.5s; display: none;"  src="Assets/House1.jpg" alt="">
-      <img id="header3" onclick="titleClicked(this.id)" class="imgSliderStyle slide3" style=" transition-duration: 0.5s; display: none;"  src="Assets/House2.jpg" alt="">
-      <img id="header3" onclick="titleClicked(this.id)" class="imgSliderStyle slide3" style=" transition-duration: 0.5s; display: none;"  src="Assets/House3.jpg" alt="">
-      
-      <button class="buttonSliderStylePrev w3-button w3-black w3-display-left  w3-hover-aqua" onclick="change('slide3', 'B')">&#10094;</button>
-      <button class="buttonSliderStyleNext w3-button w3-black w3-display-right w3-hover-aqua" onclick="change('slide3', 'F')">&#10095;</button>
-    </div>
-      <h2 for="" id="header3" onclick="titleClicked(this.id)" class="card1Label w3-xxlarge">تیتر</h2>
-      <p id="card1DescrptionId3" class="card1Descrption w3-xlarge"></p>
-    </div>
   </body>
   <script src="indexScriptAndCss/indexScript.js"></script>
 <script>

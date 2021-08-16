@@ -48,42 +48,44 @@ function change(className, func)
     }
 }
 
-function titleClicked(itemId)
-{
-    if(document.getElementById(itemId).style.position != "absolute")
-    {
-        document.getElementById(itemId).style.position = "absolute";
-        document.getElementById(itemId).style.width = "100%";
-        document.getElementById(itemId).style.height = "100%";
-        document.getElementById(itemId).style.top =  "50%";
-        document.getElementById(itemId).style.left = "50%";
-        document.getElementById(itemId).style.transform = "translate(-50%,-50%)";
-        document.getElementById(itemId).style.zIndex = "99";
-        for(var j = 0; 0 < details.length; j++)
-        {
-            document.getElementById('card1DescrptionId' + (j + 1)).innerHTML = details[j];
-        }
-    }
-    else if(document.getElementById(itemId).style.position == "absolute")
-    {
-        itemClose(itemId);  
-        pageStartUp(); 
-    }
-     //position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);
-}
 
-function itemClose(itemId)
-{
-        document.getElementById(itemId).style.position = "";
-        document.getElementById(itemId).style.width = "80%";
-        document.getElementById(itemId).style.height = "";
-        document.getElementById(itemId).style.top =  "";
-        document.getElementById(itemId).style.left = "";
-        document.getElementById(itemId).style.transform = "";
-        document.getElementById(itemId).style.zIndex = "0";
+// Closed for now
+// function titleClicked(itemId)
+// {
+//     if(document.getElementById(itemId).style.position != "absolute")
+//     {
+//         document.getElementById(itemId).style.position = "absolute";
+//         document.getElementById(itemId).style.width = "100%";
+//         document.getElementById(itemId).style.height = "100%";
+//         document.getElementById(itemId).style.top =  "50%";
+//         document.getElementById(itemId).style.left = "50%";
+//         document.getElementById(itemId).style.transform = "translate(-50%,-50%)";
+//         document.getElementById(itemId).style.zIndex = "99";
+//         for(var j = 0; 0 < details.length; j++)
+//         {
+//             document.getElementById('card1DescrptionId' + (j + 1)).innerHTML = details[j];
+//         }
+//     }
+//     else if(document.getElementById(itemId).style.position == "absolute")
+//     {
+//         itemClose(itemId);  
+//         pageStartUp(); 
+//     }
+//      //position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);
+// }
 
-        setTimeout(1000);
-        pageStartUp();
+// function itemClose(itemId)
+// {
+//         document.getElementById(itemId).style.position = "";
+//         document.getElementById(itemId).style.width = "80%";
+//         document.getElementById(itemId).style.height = "";
+//         document.getElementById(itemId).style.top =  "";
+//         document.getElementById(itemId).style.left = "";
+//         document.getElementById(itemId).style.transform = "";
+//         document.getElementById(itemId).style.zIndex = "0";
+
+//         setTimeout(1000);
+//         pageStartUp();
         
-        console.log("From slider script: " + details[1]);
-}
+//         console.log("From slider script: " + details[1]);
+// }
