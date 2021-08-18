@@ -88,7 +88,8 @@ body
 
 .card1Descrption
 {
-    word-wrap: break-word;
+    font-size: 3px;
+    word-wrap: normal;
     text-align: right;
     direction: rtl;
     padding-bottom: 8px;
