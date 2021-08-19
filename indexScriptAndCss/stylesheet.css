@@ -72,6 +72,7 @@ body
 
 .card1
 {
+    margin-top: 16px;
     width: 60%;
     margin: auto;
     background-color: rgba(97, 255, 195, 0.87);
@@ -88,11 +89,24 @@ body
 
 .card1Descrption
 {
-    font-size: 3px;
+    font-size: 20px;
     word-wrap: normal;
     text-align: right;
     direction: rtl;
     padding-bottom: 8px;
     padding-right: 10px;
+}
+
+.itemNewTabButton
+{
+    font-size: 20px;
+    border-radius: 0px 0px 8px 8px;
+    margin-bottom: 16px;
+    display: block;
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 8px;
+    background-color: rgba(238, 238, 238, 0.993);
 }
 

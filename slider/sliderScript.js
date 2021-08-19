@@ -48,6 +48,20 @@ function change(className, func)
     }
 }
 
+function descriptionButton(id, num)
+{
+    var ID = document.getElementById(id + num);
+
+    if(ID.style.display == "block")
+    {
+        ID.style.display = "none";
+    }
+    else if(ID.style.display == "none")
+    {
+        ID.style.display = "block";
+        
+    }
+}
 
 // Closed for now
 // function titleClicked(itemId)
