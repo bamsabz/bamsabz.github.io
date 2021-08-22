@@ -6,14 +6,14 @@
         width: 80%;
         height: 48px;
         margin: auto;
-        background-color: rgba(22, 253, 164, 0.979);
+        background-color: var(--green);
     }
 
 .pageHeaderButtonsParent
 {
     display: none;
     z-index: 2;
-    background-color: rgba(22, 253, 164, 0.979);
+    background-color: var(--green);
     animation-name: aa;
     animation-duration: 0.7s;
     animation-play-state: running;
@@ -65,7 +65,7 @@
 {
     width: 80%;
     margin: auto;
-    background-color: rgba(97, 255, 195, 0.87);
+    background-color: var(--green);
 }
 
 .buttonSliderStylePrev
@@ -73,6 +73,12 @@
     height: 100%;
     border-radius: 7px 300px 300px 8px;
     opacity: 0.5;
+    background-color: var(--black);
+}
+
+.buttonSliderStylePrev:hover
+{
+    background-color: var(--green);
 }
 
 .buttonSliderStyleNext
@@ -80,5 +86,11 @@
     height: 100%;
     border-radius: 300px 7px 8px 300px;
     opacity: 0.5;
+    background-color: var(--black);
+}
+
+.buttonSliderStyleNext:hover
+{
+    background-color: var(--green);
 }
 }

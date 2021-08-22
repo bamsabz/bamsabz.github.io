@@ -1,9 +1,16 @@
+:root
+{
+    --green: rgb(4, 238, 121);
+    --black: rgb(15, 15, 15);
+    --whiteDim: rgb(238, 238, 238);
+}
+
 body
 {
     /* background-color: rgb(17, 17, 17); */
     font-family: 'Cairo', sans-serif;
     background-image: url(Assets/background1.svg);
-    background-color: rgb(214, 214, 214);
+    background-color: var(--whiteDim);
     /* background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed; */
@@ -15,7 +22,7 @@ body
     width: 70%;
     height: 48px;
     margin: auto;
-    background-color: rgba(22, 253, 164, 0.979);
+    background-color: var(--green);
 }
 
 .pageHeaderButton
@@ -44,14 +51,14 @@ body
 
 .pageHeaderButton:hover
 {
-    background-color:rgba(255, 255, 255, 0.979);
+    background-color:var(--whiteDim);
 }
 
 .homePageIntro
 {
     width: 80%;
     margin: auto;
-    background-color: rgba(7, 7, 7, 0.945);
+    background-color: var(--black);
 }
 
 .homePageIntroImage
@@ -67,7 +74,7 @@ body
 {
     margin: auto;
     text-align: center;
-    color:rgba(22, 253, 164, 0.979);
+    color:var(--green);
 }
 
 .card1
@@ -75,7 +82,7 @@ body
     margin-top: 16px;
     width: 60%;
     margin: auto;
-    background-color: rgba(97, 255, 195, 0.87);
+    background-color: var(--green);
 }
 
 
@@ -107,6 +114,6 @@ body
     outline: none;
     width: 100%;
     padding: 8px;
-    background-color: rgba(238, 238, 238, 0.993);
+    background-color: var(--whiteDim);
 }
 
