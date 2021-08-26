@@ -1,0 +1,56 @@
+.card2
+{
+    margin-top: 16px;
+    width: 60%;
+    margin: auto;
+    background-color: var(--green);
+}
+
+.pageHeader2
+{
+    width: 70%;
+    height: 48px;
+    margin: auto;
+    background-color: var(--green);
+}
+
+.inDetail
+{
+    width: 60%;
+    height:auto;
+    padding: 5px;
+    background-color: var(--green);
+    border-radius: 9px;
+}
+
+@media screen and (max-width: 767px)
+{
+    .card2
+{
+    margin-top: 16px;
+    width: 90%;
+    margin: auto;
+    background-color: var(--green);
+}
+
+
+.pageHeader2
+{
+    width: 90%;
+    height: 48px;
+    margin: auto;
+    background-color: var(--green);
+}
+
+
+.inDetail
+{
+    width: 90%;
+    height:auto;
+    padding: 5px;
+    background-color: var(--green);
+    border-radius: 9px;
+    margin: auto;
+}
+
+}
