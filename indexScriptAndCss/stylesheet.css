@@ -117,3 +117,16 @@ body
     background-color: var(--whiteDim);
 }
 
+.itemNewTabButtonForHousePage
+{
+    margin: auto;
+    font-size: 20px;
+    border-radius: 0px 0px 8px 8px;
+    margin-bottom: 16px;
+    display: block;
+    border: none;
+    outline: none;
+    width: 90%;
+    padding: 8px;
+    background-color: var(--green);
+}

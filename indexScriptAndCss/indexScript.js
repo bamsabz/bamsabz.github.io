@@ -61,3 +61,8 @@ var detailsSave = details;
   details = detailsSave;
   }
   pageStartUp();
+
+  function previousPage()
+  {
+    window.history.back();
+  }
