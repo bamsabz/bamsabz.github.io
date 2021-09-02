@@ -53,4 +53,33 @@
     margin: auto;
 }
 
+.socialMedia
+{
+    margin: auto;
+    width: 90%;
+    background-color: var(--black);
+    border-radius: 9px;
+}
+
+.instagramIcon
+{
+    /* color: rgba(0, 0, 0, 0.719); */
+    font-size: 60px;
+    color: rgba(255, 255, 255, 0.897);
+    
+}
+
+.instagramIcon:hover
+{
+    background-color: red;
+    text-shadow: 2px 2px 4px rgba(255, 0, 179, 0.719);
+    background-image: linear-gradient(45deg, #f700ff, #ff006a);
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+
 }
