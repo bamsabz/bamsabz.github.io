@@ -21,6 +21,7 @@
     <script src="../cssAndJs/indexScript.js"></script>
     <script src="https://kit.fontawesome.com/d3152d4941.js" crossorigin="anonymous"></script>
     <script src="splide-2.4.21/dist/js/splide.min.js"></script>
+    <script src="../cssAndJs/contactUs.js"></script>
 
     <!-- LINKS -->
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
@@ -52,9 +53,9 @@
 
     <form action="https://formsubmit.co/arsalan.ganjeh82@gmail.com" method="POST">
         <input  class="inputForm" placeholder="متن مورد نظر" type="text" name="اسم" required>
-        <input  class="inputForm" placeholder="شماره تفلن" type="number" name="شماره تلفن" required>
+        <input  id="phoneNumber" class="inputForm" placeholder="شماره تفلن" type="number" name="شماره تلفن" required>
         <button class="submitButton" type="submit">ارسال</button>
-        <input type="hidden" name="_next" value="https://bamsabz.github.io/pages/thankYou.html">
+        <input type="hidden" name="_next" onClick="submitFormClick()" value="https://bamsabz.github.io/pages/thankYou.html">
    </form>
 
    <footer class="w3-footer">
