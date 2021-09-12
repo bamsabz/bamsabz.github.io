@@ -2,6 +2,17 @@
 {
 }
 
+.sliderButton
+{
+    border: none;
+    outline: none;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: auto;
+    font-style: bold;
+    
+}
 
 .imgSliderStyle
 {
