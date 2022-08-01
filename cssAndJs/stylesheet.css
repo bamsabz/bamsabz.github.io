@@ -102,6 +102,7 @@ body
     direction: rtl;
     padding-bottom: 8px;
     padding-right: 10px;
+    font-weight: bold;
 }
 
 .itemNewTabButton
